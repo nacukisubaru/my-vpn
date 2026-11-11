@@ -1,0 +1,16 @@
+{
+  "client": {
+    "id": "3def1d1b-8431-4f46-a65d-40c1b6b4e4d4",
+    "flow": "xtls-rprx-vision",
+    "email": "phone",
+    "limitIp": 0,
+    "totalGB": 0,
+    "expiryTime": 0,
+    "enable": true,
+    "subId": "phonesub01",
+    "comment": "Телефон"
+  },
+  "inboundIds": [
+    1
+  ]
+}

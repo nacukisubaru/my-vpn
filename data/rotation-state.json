@@ -1,0 +1,253 @@
+{
+  "cooldown_minutes": 60,
+  "sni": {
+    "cdn.jsdelivr.net": {
+      "ok": true,
+      "verified": "2026-11-05T11:08:25+03:00",
+      "cn": "*.jsdelivr.net",
+      "last_used": "2026-11-11T21:07:48+03:00"
+    },
+    "www.python.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:08:56+03:00",
+      "cn": "www.python.org"
+    },
+    "www.apple.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:09:26+03:00",
+      "cn": "www.apple.com"
+    },
+    "www.microsoft.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:09:56+03:00",
+      "cn": "www.microsoft.com"
+    },
+    "dl.google.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:10:31+03:00",
+      "cn": "*.google.com"
+    },
+    "www.nvidia.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:10:33+03:00"
+    },
+    "store.steampowered.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:10:34+03:00"
+    },
+    "www.dropbox.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:10:37+03:00"
+    },
+    "www.mozilla.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:11:07+03:00",
+      "cn": "www.mozilla.org"
+    },
+    "cdnjs.cloudflare.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:11:42+03:00",
+      "cn": "cdnjs.cloudflare.com"
+    },
+    "www.cloudflare.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:12:18+03:00",
+      "cn": "www.cloudflare.com"
+    },
+    "www.jetbrains.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:12:53+03:00",
+      "cn": "www.jetbrains.com"
+    },
+    "www.adobe.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:13:28+03:00",
+      "cn": "*.adobe.com"
+    },
+    "www.oracle.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:13:30+03:00"
+    },
+    "www.ibm.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:14:05+03:00",
+      "cn": "www.ibm.com"
+    },
+    "www.dell.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:14:41+03:00",
+      "cn": "*.dell.com"
+    },
+    "www.autodesk.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:15:16+03:00",
+      "cn": "www.autodesk.com"
+    },
+    "registry.npmjs.org": {
+      "ok": false,
+      "verified": "2026-11-05T11:15:39+03:00"
+    },
+    "pypi.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:16:09+03:00",
+      "cn": "pypi.org"
+    },
+    "www.debian.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:16:45+03:00",
+      "cn": "www.debian.org"
+    },
+    "www.docker.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:16:47+03:00"
+    },
+    "www.wikipedia.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:17:21+03:00",
+      "cn": "*.wikipedia.org"
+    },
+    "www.epicgames.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:17:57+03:00",
+      "cn": "www.epicgames.com"
+    },
+    "www.spotify.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:18:28+03:00",
+      "cn": "www.spotify.com"
+    },
+    "www.twitch.tv": {
+      "ok": false,
+      "verified": "2026-11-05T11:18:30+03:00"
+    },
+    "www.reddit.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:19:06+03:00",
+      "cn": "*.reddit.com"
+    },
+    "www.stackoverflow.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:19:41+03:00",
+      "cn": "www.stackoverflow.com"
+    },
+    "www.salesforce.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:20:16+03:00",
+      "cn": "www.salesforce.com"
+    },
+    "www.cisco.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:20:51+03:00",
+      "cn": "www.cisco.com"
+    },
+    "www.intel.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:21:27+03:00",
+      "cn": "*.intel.com"
+    },
+    "www.lenovo.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:22:02+03:00",
+      "cn": "*.lenovo.com"
+    },
+    "www.atlassian.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:22:04+03:00"
+    },
+    "www.zoom.us": {
+      "ok": true,
+      "verified": "2026-11-05T11:22:39+03:00",
+      "cn": "*.zoom.us"
+    },
+    "www.notion.so": {
+      "ok": false,
+      "verified": "2026-11-05T11:22:40+03:00"
+    },
+    "www.figma.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:23:15+03:00",
+      "cn": "*.figma.com"
+    },
+    "www.shopify.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:23:50+03:00",
+      "cn": "www.shopify.com"
+    },
+    "www.stripe.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:24:29+03:00",
+      "cn": "*.stripe.com"
+    },
+    "www.udemy.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:24:31+03:00"
+    },
+    "www.coursera.org": {
+      "ok": false,
+      "verified": "2026-11-05T11:24:33+03:00"
+    },
+    "www.bbc.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:24:35+03:00"
+    },
+    "www.renesas.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:25:11+03:00",
+      "cn": "www.renesas.com"
+    },
+    "udemy.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:25:52+03:00",
+      "cn": "udemy.com"
+    },
+    "coursera.org": {
+      "ok": true,
+      "verified": "2026-11-05T11:26:27+03:00",
+      "cn": "coursera.org"
+    },
+    "twitch.tv": {
+      "ok": false,
+      "verified": "2026-11-05T11:26:51+03:00"
+    },
+    "notion.so": {
+      "ok": true,
+      "verified": "2026-11-05T11:27:25+03:00",
+      "cn": "notion.so"
+    },
+    "docker.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:28:01+03:00",
+      "cn": "docker.com"
+    },
+    "nvidia.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:28:25+03:00"
+    },
+    "oracle.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:28:50+03:00"
+    },
+    "dropbox.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:28:53+03:00"
+    },
+    "atlassian.com": {
+      "ok": false,
+      "verified": "2026-11-05T11:28:54+03:00"
+    },
+    "npmjs.com": {
+      "ok": true,
+      "verified": "2026-11-05T11:29:30+03:00",
+      "cn": "npmjs.com"
+    }
+  },
+  "ports": {
+    "443": {
+      "last_used": "2026-11-05T11:34:22+03:00"
+    },
+    "2087": {},
+    "2086": {
+      "last_used": "2026-11-11T21:07:48+03:00"
+    }
+  }
+}

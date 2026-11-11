@@ -1,0 +1,82 @@
+{
+  "up": 199101,
+  "down": 46044607,
+  "total": 0,
+  "remark": "VLESS-Reality-443",
+  "enable": true,
+  "expiryTime": 0,
+  "listen": "",
+  "port": 443,
+  "protocol": "vless",
+  "settings": {
+    "clients": [
+      {
+        "comment": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043a\u043b\u0438\u0435\u043d\u0442",
+        "created_at": 1793790240000,
+        "email": "main",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "06eeb7ee-aeb7-40f5-86da-4b898e212fcb",
+        "limitIp": 0,
+        "reset": 0,
+        "resetDay": 0,
+        "resetMax": 0,
+        "resetWeekday": 0,
+        "security": "",
+        "subId": "mainsub01",
+        "tgId": 0,
+        "totalGB": 0,
+        "updated_at": 1793790240000
+      }
+    ],
+    "decryption": "none",
+    "fallbacks": []
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "externalProxy": [],
+    "realitySettings": {
+      "show": false,
+      "xver": 0,
+      "dest": "www.apple.com:443",
+      "serverNames": [
+        "www.apple.com"
+      ],
+      "privateKey": "gKiV2NrX-M5eThvUnfWDbQnCmg7iUVdYNaOiAzXh_04",
+      "minClientVer": "",
+      "maxClientVer": "",
+      "maxTimediff": 0,
+      "shortIds": [
+        "75d3f467b6cd475e",
+        "3beb0aa0"
+      ],
+      "settings": {
+        "publicKey": "IHNNg-jGhzti5qfzvoXBtSGNo30OKtWOCrd5kGpRpWA",
+        "fingerprint": "chrome",
+        "serverName": "",
+        "spiderX": "/"
+      }
+    },
+    "sockopt": {
+      "acceptProxyProtocol": false,
+      "tcpFastOpen": false,
+      "mark": 0
+    }
+  },
+  "sniffing": {
+    "enabled": true,
+    "destOverride": [
+      "http",
+      "tls",
+      "quic"
+    ],
+    "metadataOnly": false,
+    "routeOnly": true
+  },
+  "trafficReset": "never",
+  "trafficResetDay": 1,
+  "subSortIndex": 1,
+  "excludeFromSub": false
+}

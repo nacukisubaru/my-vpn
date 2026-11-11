@@ -1,0 +1,104 @@
+# Домены, которые идут ЧЕРЕЗ VPN (v2raytun → Routing → Proxy list).
+# Всё, чего нет ни здесь, ни в rules-direct.txt — идёт напрямую (direct).
+# Формат: по одному домену, поддерживаются суффиксы (example.com покроет sub.example.com).
+
+# --- Google / YouTube ---
+youtube.com
+youtu.be
+googlevideo.com
+ytimg.com
+ggpht.com
+googleapis.com
+gstatic.com
+google.com
+googleusercontent.com
+gvt1.com
+gvt2.com
+
+# --- Соцсети / мессенджеры ---
+instagram.com
+cdninstagram.com
+facebook.com
+fbcdn.net
+x.com
+twitter.com
+twimg.com
+threads.net
+discord.com
+discordapp.com
+discord.gg
+discordapp.net
+telegram.org
+t.me
+telegram.me
+telesco.pe
+whatsapp.com
+whatsapp.net
+
+# --- AI ---
+openai.com
+chatgpt.com
+oaistatic.com
+oaiusercontent.com
+anthropic.com
+claude.ai
+gemini.google.com
+perplexity.ai
+huggingface.co
+
+# --- Разработка / работа ---
+github.com
+githubusercontent.com
+githubassets.com
+gitlab.com
+npmjs.org
+npmjs.com
+pypi.org
+docker.com
+docker.io
+jetbrains.com
+stackoverflow.com
+stackexchange.com
+notion.so
+notion.site
+figma.com
+slack.com
+atlassian.com
+atlassian.net
+linear.app
+vercel.com
+netlify.com
+cloudflare.com
+digitalocean.com
+aws.amazon.com
+
+# --- Медиа / стриминг ---
+netflix.com
+nflxvideo.net
+spotify.com
+scdn.co
+twitch.tv
+ttvnw.net
+soundcloud.com
+vimeo.com
+reddit.com
+redd.it
+redditmedia.com
+pinterest.com
+tumblr.com
+
+# --- Прочее, что обычно режут ---
+bbc.com
+bbc.co.uk
+meduza.io
+linkedin.com
+licdn.com
+medium.com
+quora.com
+wikimedia.org
+wikipedia.org
+archive.org
+proton.me
+protonmail.com
+signal.org
+torproject.org

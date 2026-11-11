@@ -1,0 +1,46 @@
+# Пул доменов-маскировок (SNI/dest) для Reality.
+# Один домен в строке. Строки с # игнорируются.
+#
+# В этот список попадают ТОЛЬКО домены, прошедшие реальный тест туннеля
+# (./rotate.sh --verify-sni): TLS 1.3 + HTTP/2 + сертификат точно на этот домен.
+# Неудачные варианты (www.nvidia.com, www.dropbox.com, www.oracle.com, www.docker.com,
+# www.twitch.tv, www.atlassian.com, www.notion.so, www.udemy.com, www.coursera.org,
+# www.bbc.com, registry.npmjs.org, store.steampowered.com) заменены на рабочие версии
+# или исключены.
+#
+# Добавили новый домен? Проверьте:  ./rotate.sh --verify-sni <домен>
+# Перепроверить всё:               ./rotate.sh --verify-sni
+cdn.jsdelivr.net
+cdnjs.cloudflare.com
+coursera.org
+dl.google.com
+docker.com
+notion.so
+npmjs.com
+pypi.org
+udemy.com
+www.adobe.com
+www.apple.com
+www.autodesk.com
+www.cisco.com
+www.cloudflare.com
+www.debian.org
+www.dell.com
+www.epicgames.com
+www.figma.com
+www.ibm.com
+www.intel.com
+www.jetbrains.com
+www.lenovo.com
+www.microsoft.com
+www.mozilla.org
+www.python.org
+www.reddit.com
+www.renesas.com
+www.salesforce.com
+www.shopify.com
+www.spotify.com
+www.stackoverflow.com
+www.stripe.com
+www.wikipedia.org
+www.zoom.us

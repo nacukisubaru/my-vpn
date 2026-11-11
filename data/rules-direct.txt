@@ -1,0 +1,59 @@
+# Домены, которые идут НАПРЯМУЮ, даже если включён VPN (Direct list).
+# Всё российское — прямой ход: быстрее, меньше нагрузки на сервер, меньше поводов для внимания.
+
+# --- RU-сервисы ---
+yandex.ru
+yandex.net
+ya.ru
+yastatic.net
+mail.ru
+vk.com
+vk.ru
+ok.ru
+avito.ru
+ozon.ru
+wildberries.ru
+dns-shop.ru
+sberbank.ru
+sber.ru
+tinkoff.ru
+tbank.ru
+alfabank.ru
+vtb.ru
+gazprombank.ru
+gosuslugi.ru
+mos.ru
+nalog.ru
+nalog.gov.ru
+rt.ru
+beeline.ru
+mts.ru
+megafon.ru
+tele2.ru
+kinopoisk.ru
+ivi.ru
+rutube.ru
+dzen.ru
+habr.com
+lenta.ru
+rbc.ru
+kommersant.ru
+ria.ru
+tass.ru
+vkvideo.ru
+market.yandex.ru
+travel.yandex.ru
+2gis.ru
+2gis.com
+
+# --- Локальная сеть и служебное (не гнать в туннель никогда) ---
+localhost
+.local
+lan
+home.arpa
+router.asus.com
+tplinkwifi.net
+
+# --- Проверка IP / спидтесты (пусть показывают реальный IP) ---
+2ip.ru
+speedtest.net

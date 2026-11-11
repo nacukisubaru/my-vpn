@@ -1,0 +1,105 @@
+{
+  "up": 45739,
+  "down": 51818,
+  "total": 0,
+  "remark": "VLESS-Reality-8443-backup",
+  "enable": true,
+  "expiryTime": 0,
+  "listen": "",
+  "port": 8443,
+  "protocol": "vless",
+  "settings": {
+    "clients": [
+      {
+        "comment": "Резервный вход (8443)",
+        "created_at": 1793791498000,
+        "email": "backup",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "2af5cde6-21b0-42f5-9fcb-dfb58808906d",
+        "limitIp": 0,
+        "reset": 0,
+        "resetDay": 0,
+        "resetMax": 0,
+        "resetWeekday": 0,
+        "security": "",
+        "subId": "backupsub01",
+        "tgId": 0,
+        "totalGB": 0,
+        "updated_at": 1793791498000
+      },
+      {
+        "comment": "Телефон",
+        "created_at": 1793791501657,
+        "email": "phone",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "3def1d1b-8431-4f46-a65d-40c1b6b4e4d4",
+        "limitIp": 0,
+        "reset": 0,
+        "resetDay": 0,
+        "resetMax": 0,
+        "resetWeekday": 0,
+        "security": "",
+        "subId": "phonesub01",
+        "tgId": 0,
+        "totalGB": 0,
+        "trafficReset": "never",
+        "trafficResetDay": 1,
+        "updated_at": 1793791504000
+      }
+    ],
+    "decryption": "none",
+    "fallbacks": []
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "externalProxy": [],
+    "realitySettings": {
+      "show": false,
+      "xver": 0,
+      "dest": "www.python.org:443",
+      "serverNames": [
+        "www.python.org"
+      ],
+      "privateKey": "mG46OtZHcJ2E6OptoZcUYQt1Z1NtoOqj5F1uIlYNzFw",
+      "minClientVer": "",
+      "maxClientVer": "",
+      "maxTimediff": 0,
+      "shortIds": [
+        "ced31a3dfc59cb94",
+        "32f98b32"
+      ],
+      "settings": {
+        "publicKey": "GhlACaIyiC5RmlMaHQn77shBcpeeFZxqbNk-T_efDgc",
+        "fingerprint": "chrome",
+        "serverName": "",
+        "spiderX": "/"
+      }
+    },
+    "sockopt": {
+      "acceptProxyProtocol": false,
+      "tcpFastOpen": false,
+      "mark": 0
+    }
+  },
+  "sniffing": {
+    "enabled": true,
+    "destOverride": [
+      "http",
+      "tls",
+      "quic"
+    ],
+    "metadataOnly": false,
+    "routeOnly": true
+  },
+  "shareAddrStrategy": "custom",
+  "shareAddr": "82.148.226.31",
+  "subSortIndex": 1,
+  "excludeFromSub": false,
+  "trafficReset": "never",
+  "trafficResetDay": 1
+}

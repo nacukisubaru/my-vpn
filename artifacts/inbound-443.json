@@ -1,0 +1,105 @@
+{
+  "up": 489046270,
+  "down": 22638013976,
+  "total": 0,
+  "remark": "VLESS-Reality-443",
+  "enable": true,
+  "expiryTime": 0,
+  "listen": "",
+  "port": 443,
+  "protocol": "vless",
+  "settings": {
+    "clients": [
+      {
+        "comment": "Основной клиент",
+        "created_at": 1793790240000,
+        "email": "main",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "06eeb7ee-aeb7-40f5-86da-4b898e212fcb",
+        "limitIp": 0,
+        "reset": 0,
+        "resetDay": 0,
+        "resetMax": 0,
+        "resetWeekday": 0,
+        "security": "",
+        "subId": "mainsub01",
+        "tgId": 0,
+        "totalGB": 0,
+        "updated_at": 1793790240000
+      },
+      {
+        "comment": "Телефон",
+        "created_at": 1793791501657,
+        "email": "phone",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "3def1d1b-8431-4f46-a65d-40c1b6b4e4d4",
+        "limitIp": 0,
+        "reset": 0,
+        "resetDay": 0,
+        "resetMax": 0,
+        "resetWeekday": 0,
+        "security": "",
+        "subId": "phonesub01",
+        "tgId": 0,
+        "totalGB": 0,
+        "trafficReset": "never",
+        "trafficResetDay": 1,
+        "updated_at": 1793791501000
+      }
+    ],
+    "decryption": "none",
+    "fallbacks": []
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "externalProxy": [],
+    "realitySettings": {
+      "show": false,
+      "xver": 0,
+      "dest": "cdn.jsdelivr.net:443",
+      "serverNames": [
+        "cdn.jsdelivr.net"
+      ],
+      "privateKey": "kACesTuTlhIKoDZ6irzhmz1izjRR0By-lV9ZGxnpEVw",
+      "minClientVer": "",
+      "maxClientVer": "",
+      "maxTimediff": 0,
+      "shortIds": [
+        "4d38291007487c2c",
+        "329e8ef7"
+      ],
+      "settings": {
+        "publicKey": "rbJJGOYeTp_FNaP5fxC5Uv4nd0b8VyABwqD1pxxCm3o",
+        "fingerprint": "chrome",
+        "serverName": "",
+        "spiderX": "/"
+      }
+    },
+    "sockopt": {
+      "acceptProxyProtocol": false,
+      "tcpFastOpen": false,
+      "mark": 0
+    }
+  },
+  "sniffing": {
+    "enabled": true,
+    "destOverride": [
+      "http",
+      "tls",
+      "quic"
+    ],
+    "metadataOnly": false,
+    "routeOnly": true
+  },
+  "shareAddrStrategy": "custom",
+  "shareAddr": "82.148.226.31",
+  "subSortIndex": 1,
+  "excludeFromSub": false,
+  "trafficReset": "never",
+  "trafficResetDay": 1
+}

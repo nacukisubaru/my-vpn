@@ -1,0 +1,9 @@
+# секреты и ключи не должны попадать в git
+secrets/
+docs/snapshots/
+backups/
+*.log
+
+# служебный мусор / бинарники
+.DS_Store
+.tools/
