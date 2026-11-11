@@ -177,7 +177,8 @@
     "www.stripe.com": {
       "ok": true,
       "verified": "2026-11-05T11:24:29+03:00",
-      "cn": "*.stripe.com"
+      "cn": "*.stripe.com",
+      "last_used": "2026-11-11T23:08:20+03:00"
     },
     "www.udemy.com": {
       "ok": false,
@@ -244,7 +245,7 @@
   },
   "ports": {
     "443": {
-      "last_used": "2026-11-05T11:34:22+03:00"
+      "last_used": "2026-11-11T23:08:20+03:00"
     },
     "2087": {},
     "2086": {
