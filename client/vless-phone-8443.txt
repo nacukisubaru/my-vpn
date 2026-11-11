@@ -1,1 +1,0 @@
-vless://3def1d1b-8431-4f46-a65d-40c1b6b4e4d4@82.148.226.31:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GhlACaIyiC5RmlMaHQn77shBcpeeFZxqbNk-T_efDgc&security=reality&sid=ced31a3dfc59cb94&sni=www.python.org&spx=%2F0adf54d86bb61d5&support-x25519mlkem768=true&type=tcp#VLESS-Reality-8443-backup-phone

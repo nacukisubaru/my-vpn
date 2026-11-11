@@ -4,6 +4,11 @@ docs/snapshots/
 backups/
 *.log
 
+# клиентские ссылки и конфиги содержат UUID (рабочий доступ к VPN)
+client/vless-*.txt
+client/config*.json
+qr/
+
 # служебный мусор / бинарники
 .DS_Store
 .tools/
