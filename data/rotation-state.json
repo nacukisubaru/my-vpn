@@ -25,7 +25,8 @@
     "dl.google.com": {
       "ok": true,
       "verified": "2026-11-05T11:10:31+03:00",
-      "cn": "*.google.com"
+      "cn": "*.google.com",
+      "last_used": "2026-11-11T22:55:25+03:00"
     },
     "www.nvidia.com": {
       "ok": false,

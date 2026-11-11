@@ -51,6 +51,15 @@ for path, link in files.items():
     open(path, "w").write(link + "\n")
     print("wrote", path)
 
+# удалить устаревшие клиентские конфиги (порты, которых больше нет)
+wanted_cfg = {"client/config.json"}
+for path in files:
+    if "phone" in path:
+        wanted_cfg.add(f"client/config-phone{port_of(files[path])}.json")
+for old in glob.glob("client/config-phone*.json"):
+    if old not in wanted_cfg:
+        os.remove(old); print("removed", old)
+
 # --- клиентские конфиги для тестов ---
 base = json.load(open("client/config.json")) if os.path.exists("client/config-base.json") is False else json.load(open("client/config-base.json"))
 
