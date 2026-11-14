@@ -29,6 +29,21 @@ VLESS + Reality + XTLS-Vision на 3x-ui (Xray-core). Трафик неотли�
 > `www.apple.com`, а с 2026-11-05 — `cdn.jsdelivr.net` с полностью новыми ключами Reality
 > (см. [docs/ROLLBACK.md](docs/ROLLBACK.md), там же откат).
 
+## 1.5. Установка с нуля
+
+```bash
+make install      # спросит IP, логин, пароль SSH и попросит подтверждение
+```
+
+Ставит 3x-ui, генерирует ключи, создаёт оба инбаунда, пишет `secrets/`, `client/`, `qr/`
+и проверяет туннель. Если 3x-ui уже установлен — **останавливается**, ничего не меняя
+(`PROV_ON_EXISTS=force` для переустановки). Подробно: [docs/ADMIN.md](docs/ADMIN.md#установка-с-нуля-провижининг).
+
+```bash
+make help        # все команды
+make doctor      # проверка перед установкой
+```
+
 ## 2. Как подключиться
 
 Ссылка (импортируется в любое приложение, см. [docs/CLIENTS.md](docs/CLIENTS.md)):
@@ -185,6 +200,8 @@ Reality (`pbk`/`sid`). Настраивать заново ничего не н�
 
 | Файл | Назначение |
 |---|---|
+| `Makefile` | `make install` — установка с нуля; `make help` — все команды |
+| `provision/` | шаги провижининга (база → 3x-ui → ключи → инбаунды → файлы → проверка) |
 | `rssh.sh` | запуск команд на сервере по SSH (с ретраями); пароль в `secrets/server.json` |
 | `panel-tunnel.sh` | SSH-туннель к панели 3x-ui |
 | `xui-api.sh` | вызовы API панели (`GET/POST /panel/api/...`) без браузера |
